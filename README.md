@@ -18,3 +18,8 @@ python app/my_script.py
 # or
 python -m app.my_script
 ```
+Play rock-paper-scissors:
+
+```sh
+python -m app.rps
+```
