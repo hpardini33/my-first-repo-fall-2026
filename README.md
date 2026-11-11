@@ -23,3 +23,16 @@ Play rock-paper-scissors:
 ```sh
 python -m app.rps
 ```
+## Testing
+
+Install packages:
+
+```sh
+pip install -r requirements.txt
+```
+
+Run tests:
+
+```sh
+pytest
+```
