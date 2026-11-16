@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Rock, Paper, Scissors</h1>
+
+    <form action="/rps/play" method="POST">
+        <label for="user_choice">Choose one:</label>
+        <select name="user_choice" id="user_choice">
+            <option value="rock">Rock</option>
+            <option value="paper">Paper</option>
+            <option value="scissors">Scissors</option>
+        </select>
+
+        <button type="submit">Play</button>
+    </form>
+{% endblock %}
