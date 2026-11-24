@@ -1,4 +1,9 @@
 pytest
 
-#webapp
+# web app
 flask
+gunicorn
+
+# stocks
+pandas
+python-dotenv

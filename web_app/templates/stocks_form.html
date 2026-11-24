@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h2>Stocks Form</h2>
+
+    <p>Request some stock market data...</p>
+
+    <form action="/stocks/dashboard" method="POST">
+        <label for="symbol">Stock Symbol:</label>
+        <input type="text" name="symbol" id="symbol" placeholder="MSFT" value="MSFT">
+
+        <button type="submit">View Dashboard</button>
+    </form>
+{% endblock %}
