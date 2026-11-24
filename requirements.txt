@@ -1,1 +1,9 @@
 pytest
+
+# web app
+flask
+gunicorn
+
+# stocks
+pandas
+python-dotenv
